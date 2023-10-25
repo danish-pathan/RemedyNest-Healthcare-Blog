@@ -1,7 +1,7 @@
 const express = require("express");
 const expressLayouts = require("express-ejs-layouts");
 const authRoutes = require("./server/routes/authRoutes");
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 const {
   requireAuth,
