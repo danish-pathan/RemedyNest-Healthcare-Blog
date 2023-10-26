@@ -13,7 +13,7 @@
     <img
       src="/img/<%- disease.image %>"
       class="img-fluid sticky-top"
-      style="top: 20px"
+      style="top: 20px; max-height: 400px"
       alt="<%- disease.name %>"
       loading="lazy"
     />
@@ -44,7 +44,7 @@
             class="img-fluid"
             alt="Supplementary Image <%= index + 1 %>"
             loading="lazy"
-            style="margin: 10px"
+            style="margin: 10px; max-width: 600px"
           />
           <% }) %>
         </div>

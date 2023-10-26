@@ -22,6 +22,7 @@ const diseaseSchema = new mongoose.Schema({
       "Sleep Disorders",
       "Oral Health",
       "Stress",
+      "Skin Conditions",
     ],
     required: "This field is required.",
   },
